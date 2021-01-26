@@ -1,0 +1,87 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background: #151515;
+
+  // 标题区域
+  .home-wrap  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid;
+    .title-wrap {
+      height: 50px;
+      line-height: 50px;
+      background: #151515;
+      display: flex;
+      justify-content: space-between;
+      margin-left: 20px;
+      align-items: center;
+      width: 100%;
+      .logo {
+        background-color: #E4761D;
+        border-radius: 10px;
+        color: white;
+        width: 50px;
+        height: 20px;
+        line-height: 20px;
+        text-align: center;
+        font-weight: bold;
+      }
+      .title {
+        font-size: 16px;
+        font-family: Source Han Sans CN;
+        font-weight: bold;
+        color: #FFFFFF;
+      }
+    }
+    .info-wrap {
+      height: 50px;
+      line-height: 50px;
+      background: #151515;
+      display: flex;
+      flex-direction: row-reverse;
+      margin-right: 20px;
+      align-items: center;
+      width: 100%;
+      color: #999;
+      .logo {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 12px;
+          height: 10px;
+          margin-right: 5px;
+        }
+      }
+      .number {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 14px;
+          height: 12px;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}
+.player .pv-skin-blue .pv-controls .pv-time-wrap {
+  display: none !important;
+}
+.player .pv-skin-blue .pv-progress-wrap {
+  display: none !important;
+}
+
+.block {
+  display: block;
+}
+.none {
+  display: none;
+}
